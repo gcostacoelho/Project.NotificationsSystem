@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Rabbit.Producer", "Project.Rabbit.Producer\Project.Rabbit.Producer.csproj", "{92A123BA-B1E0-4063-AE72-D6DC1A774E34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Rabbit.Consumer", "Project.Rabbit.Consumer\Project.Rabbit.Consumer.csproj", "{E0F7CC45-805C-4032-B339-61A19A0CC1A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92A123BA-B1E0-4063-AE72-D6DC1A774E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A123BA-B1E0-4063-AE72-D6DC1A774E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A123BA-B1E0-4063-AE72-D6DC1A774E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A123BA-B1E0-4063-AE72-D6DC1A774E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{667D3952-FF2F-4D72-93D2-C3A337EE8406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667D3952-FF2F-4D72-93D2-C3A337EE8406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667D3952-FF2F-4D72-93D2-C3A337EE8406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667D3952-FF2F-4D72-93D2-C3A337EE8406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F7CC45-805C-4032-B339-61A19A0CC1A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F7CC45-805C-4032-B339-61A19A0CC1A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F7CC45-805C-4032-B339-61A19A0CC1A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F7CC45-805C-4032-B339-61A19A0CC1A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

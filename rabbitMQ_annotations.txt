@@ -1,0 +1,9 @@
+RabbitMQ é um mensagem broker, recebendo mensagens que vão ser encaminhadas para outros sistemas.
+
+Bind - É a relação de uma fila com uma exchange, é criado routings keys para separar filas
+
+Exhanges:Uma exchange é responsável por encaminhar a mensagem para outras filas
+	- Direct: Um producer manda uma mensagem para um exhcange e essa exchange encaminha a mensagem para n filas diferentes utilizando as routing keys de cada uma
+	- Fanout: A exhcange manda a mesma mensagem para todas as filas que estão ligadas a ela.
+	- Topic: Umas das exchanges mais flexíveis para o encaminhamento das mensagens
+
